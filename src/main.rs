@@ -33,8 +33,8 @@ async fn main() {
         .options(poise::FrameworkOptions {
             commands: vec![
                 agelol(),
-                commands::agey(),
-                commands::happy()
+                commands::happy(),
+                commands::bocchideath()
             ],
             ..Default::default()
         })

@@ -1,3 +1,4 @@
+// Happy
 use poise::serenity_prelude::Colour;
 use poise::serenity_prelude::builder::{CreateAttachment, CreateEmbedFooter};
 
@@ -20,7 +21,7 @@ pub async fn happy(
             .image("attachment://happy.png")
             .color(Colour::from(0x250c3a).tuple())
             .footer(CreateEmbedFooter::new(
-                "existing.moe - RUST - v1.0.0 -"
+                "existing.moe - rust version 🚀"
             ).icon_url("attachment://avatar.png")
           )
         )
